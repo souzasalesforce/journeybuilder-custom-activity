@@ -11,7 +11,7 @@
   },
   "arguments": {
     "execute": {
-      "url": "https://$DOMAIN/journey/execute",
+      "url": "https://git.heroku.com/custom-activity-gft.git/journey/execute",
       "verb": "POST",
       "body": "",
       "header": "",
@@ -21,23 +21,24 @@
     }
   },
   "configurationArguments": {
+    "applicationExtensionKey": "e7032e19-8271-4bb8-a2a0-0738899f1c07",
     "save": {
-      "url": "https://$DOMAIN/journey/save",
+      "url": "https://git.heroku.com/custom-activity-gft.git/journey/save",
       "verb": "POST",
       "useJwt": true
     },
     "publish": {
-      "url": "https://$DOMAIN/journey/publish",
+      "url": "https://git.heroku.com/custom-activity-gft.git/journey/publish",
       "verb": "POST",
       "useJwt": true
     },
     "stop": {
-      "url": "https://$DOMAIN/journey/stop",
+      "url": "https://git.heroku.com/custom-activity-gft.git/journey/stop",
       "verb": "POST",
       "useJwt": true
     },
     "validate": {
-      "url": "https://$DOMAIN/journey/validate",
+      "url": "https://git.heroku.com/custom-activity-gft.git/journey/validate",
       "verb": "POST",
       "useJwt": true
     }
